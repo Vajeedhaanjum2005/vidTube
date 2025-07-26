@@ -1,0 +1,124 @@
+/* navbar.css */
+
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 2%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Left Section */
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  width: 22px;
+  margin-right: 25px;
+}
+
+.logo {
+  width: 130px;
+}
+
+/* Middle Section */
+.nav-middle {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  width:15px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 25px;
+  
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Right Section */
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right img {
+  width: 25px;
+  margin-left: 25px;
+}
+
+.user-icon {
+  width: 35px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.shortcut-links,
+.subscribed-list {
+  margin-bottom: 20px;
+}
+
+.side-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.side-link img {
+  width: 20px;
+  height: 20px;
+  color: #f0f0f0;
+}
+.subscribed-list h3{
+  font-size: 13px;
+  margin: 20px 0;
+
+}
+.subscribed-list img{
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+@media (max-width:900px) {
+  .menu-icon{
+    display: none;
+  }
+  .nav-right img{
+    display: none;
+  }
+  .nav-right.user-icon{
+    display: block;
+    width: 30px;
+  }
+  .logo{
+    width: 90px;
+  }
+
+  .nav-middle.search-box input{
+    width:100px;
+  }
+}
+
