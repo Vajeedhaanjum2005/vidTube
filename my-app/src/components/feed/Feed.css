@@ -28,15 +28,16 @@
 .card p {
   font-size: 14px;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
   .feed {
     /* width: 90%; */
     margin: 2%;
-    height: 20%;
-    width: 20%;
+    height: 27%;
+    width: 27%;
     position: relative;
-    margin-left: 2%;
+    margin-left: 8%;
     padding-left: 8%;
+    padding-right: 8%;
   }
   /* Add more mobile-specific styles here */
 }
