@@ -97,7 +97,7 @@ const PlayVideo = () => {
       <div className="video-description">
         <p>{apiData ? apiData.snippet.description.slice(0, 250) : "Description Here"}</p>
         <hr />
-        <h4>{apiData ? value_converter(apiData.statistics.commentCount) : 102} Comments</h4>
+        <h4> Comments</h4>
 
         {commentData.map((item, index) => (
           <div key={index} className="comment">
