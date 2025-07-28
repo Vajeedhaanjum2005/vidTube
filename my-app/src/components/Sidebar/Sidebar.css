@@ -8,9 +8,9 @@
 }
 
 .small-sidebar {
-  width: 80px;
+  width: 60px;
   background: #f9f9f9;
-  padding: 10px 0;
+  padding: 6px 0;
   position: fixed;
   height: 100%;
   overflow-y: auto;
@@ -71,11 +71,14 @@ hr {
   padding-bottom: 2px;
   border-bottom: 3px solid red;
 }
-@media (max-width: 720px) {
-  .sidebar p {
+@media (max-width: 900px) {
+  .sidebar {
     display: none;
   }
   .sidebar {
     position: absolute;
   }
+  /* .sub{
+    display: none; */
+  /* } */
 }
