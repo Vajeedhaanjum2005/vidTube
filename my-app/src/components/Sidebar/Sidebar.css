@@ -72,13 +72,13 @@ hr {
   border-bottom: 3px solid red;
 }
 @media (max-width: 900px) {
-  .sidebar {
+  .sidebar p {
     display: none;
   }
-  .sidebar {
+  /* .sidebar {
     position: absolute;
+  } */
+  .sub {
+    display: none;
   }
-  /* .sub{
-    display: none; */
-  /* } */
 }
